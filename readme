@@ -1,73 +1,77 @@
+# 📊 Portfolio Tracker App  
 
-## 📊 Portfolio Tracker App
-
-A Python console-based application that allows users to *track the total value of multiple cryptocurrencies* in real time using live market prices from the *CoinGecko API* (no API key required).
-
-> *Developed By:* Mahima Dangi 
-> *Roll No:* 106 
-> *Course:* B.Tech CSE  
-> *Project Type:* Python Mini Project  
+A Python console-based application that allows users to **track the total value of multiple cryptocurrencies** in real-time using live market prices from the **CoinGecko API** (no API key required).
 
 ---
 
-## ✨ Features
+## 👩‍💻 Developer Details  
+**Name:** Mahima Dangi  
+**Roll No:** 106  
+**Course:** B.Tech CSE  
+**Project Type:** Python Mini Project  
+
+---
+
+## ✨ Features  
 
 - 💱 Add multiple cryptocurrencies to your portfolio  
-- 🔍 Automatic fetching of live prices via CoinGecko API  
-- 📄 Summary table showing:
-  - Amount owned
-  - Current price in USD
-  - Total value per coin  
-- 💾 Save portfolio snapshot in JSON format  
-- 🧠 Implements *OOP, API calls, list & dictionary operations, and exception handling*  
+- 🔍 Fetch live market prices automatically from CoinGecko API  
+- 📄 Displays a clean summary table showing:  
+  - Amount owned  
+  - Current price in USD  
+  - Total value per cryptocurrency  
+- 💾 Save a portfolio snapshot in JSON format  
+- 🧠 Demonstrates **OOP, API handling, JSON processing, and exception handling**
 
 ---
 
-## 🧠 Concepts Demonstrated
+## 🧠 Concepts Demonstrated  
 
 | Concept | Usage in Project |
 |--------|------------------|
-| Object-Oriented Programming | Classes: CryptoAsset, PortfolioTracker |
-| Encapsulation | Private attributes with getter/setter methods |
-| JSON Processing | Storing portfolio snapshot in .json file |
-| Exception Handling | Handles wrong input, internet issues, or invalid coin symbols |
-| API Integration | Uses CoinGecko public API endpoint |
-| Data Structures | Uses lists and dictionaries for storing and processing crypto data |
+| **Object-Oriented Programming** | Classes: `CryptoAsset`, `PortfolioTracker` |
+| **Encapsulation** | Private attributes + getters & setters |
+| **JSON Processing** | Saving snapshots using `.json` files |
+| **Exception Handling** | Handles wrong input, invalid symbol, no internet |
+| **API Integration** | Live crypto price fetch using CoinGecko public API |
+| **Data Structures** | Lists & dictionaries to manage portfolio data |
 
 ---
 
-## 🧪 Technologies Used
+## 🧪 Technologies Used  
 
-- Python 3
-- requests (API calls)
-- json (file storage and formatting)
-- datetime (timestamping snapshot)
-
----
-
-## 📁 Project Structure
-
-Portfolio-Tracker-App/ │ ├── main.py                # Main application script ├── README.md              # Documentation └── portfolio_snapshot.json (Generated when saving)
+- **Python 3**  
+- `requests` → API calls  
+- `json` → Saving snapshots  
+- `datetime` → Timestamping  
+- CoinGecko Public API (no key required)
 
 ---
 
-## 🔧 Installation & Requirements
+## 📁 Project Structure  
 
-Install required Python module:
+Portfolio-Tracker-App/
+│
+├── main.py # Main application script
+├── README.md # Documentation
+└── portfolio_snapshot.json # Auto-generated when snapshot is saved
+
+yaml
+Copy code
+
+---
+
+## 🔧 Installation & Requirements  
+
+Install the required dependency:
 
 ```bash
 pip install requests
-
-No API key is required because CoinGecko provides public access.
-
-
----
+👉 Note: No API key is needed because CoinGecko offers free public access.
 
 ▶ How to Run
+Run the script in your terminal:
 
-Run the script from terminal:
-
+bash
+Copy code
 python main.py
-
-
----
