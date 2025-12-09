@@ -1,8 +1,5 @@
 
-
-📄 README.md — Final Version
-
-# 📊 Portfolio Tracker App
+## 📊 Portfolio Tracker App
 
 A Python console-based application that allows users to *track the total value of multiple cryptocurrencies* in real time using live market prices from the *CoinGecko API* (no API key required).
 
